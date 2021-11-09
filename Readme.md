@@ -20,4 +20,10 @@ Testi kosturabillmek icin takip edilmesi gereken adimlar:
   target dosyasi altinda html uzantili cucumber raporuna ulasilabilir. Raporda ayrica herbir cucumber senaryosu icin screen shotlar da gorulebilir.
   
   
+  Kullanilan Teknolojier:
+  
+  Java
+  Selenium
+  Gherkin ile Cucumber
+  Maven 
   
