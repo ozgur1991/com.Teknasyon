@@ -5,8 +5,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class ConfigReader {
-//bu objeyi projenin heryerinden class ismiyle cagrilabilmesi icin static yapiyoruz
-    //class disindan mudahale olmamasi icin private yapiyoruz
+
 
     static private Properties properties;
 
