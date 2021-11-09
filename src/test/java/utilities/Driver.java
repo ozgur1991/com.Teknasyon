@@ -32,12 +32,11 @@ public class Driver {
                     ChromeOptions options = new ChromeOptions();
                     options.addArguments("no-sandbox");
             
-     //   options.addArguments("--headless");
-       // options.setExperimentalOption("useAutomationExtension", false);
-        options.addArguments("--window-size=1920,1080"); // open Browser in maximized mode
-        options.addArguments("--disable-infobars"); // disabling infobars
-        options.addArguments("--disable-extensions"); // disabling extensions
-        options.addArguments("--disable-gpu"); // applicable to windows os only
+    
+        options.addArguments("--window-size=1920,1080"); 
+        options.addArguments("--disable-infobars"); 
+        options.addArguments("--disable-extensions"); 
+        options.addArguments("--disable-gpu"); 
         options.addArguments("--disable-dev-shm-usage"); 
                     
                     driver = new ChromeDriver(options);
