@@ -36,5 +36,3 @@ Scenario: Kullanici Kariyer sayfasinda oldugunu dogruluyor
    Then hata mesajlarinin gittigini dogrular
     And Basvur butonuna tiklar
 
-      #RECAPTCHA ILE ILGILI BIRSEY YAPMADIM. O YUZDEN TEST BURADA BITIYOR.
-      #TEST CALISTIRILDIGINDA LOG KLASORU OLUSUR.
