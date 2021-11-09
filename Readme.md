@@ -6,8 +6,10 @@ Testi kosturabillmek icin takip edilmesi gereken adimlar:
   
    1.yol:
   Runner klasorunde runner icerikli dosyaya girilir ve calistirilir.
+  
    2.yol:
    Features kalsorune girilir ve feature uzantili dosya acilir. Feature yanindaki run sekmesi calsitirilir.
+   
    3.yol:
   Consolda mvn clean install verify komutu ile de test kosturulabilir.
   
