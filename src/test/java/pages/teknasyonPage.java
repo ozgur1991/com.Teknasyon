@@ -20,13 +20,8 @@ public class teknasyonPage {
 
     WebDriver driver;
 
-    @FindBy (css = "[class='menu-item menu-item-type-post_type menu-item-object-page menu-item-128'] [href]")
-    public WebElement element;
-
     @FindBy(className = "jlb-link")
     public List<WebElement> isIlanlari;
-
-
 
     @FindBy(id="jobNameSurname")
     public WebElement cvIsimInput;
