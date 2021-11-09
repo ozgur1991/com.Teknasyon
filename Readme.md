@@ -23,7 +23,10 @@ Testi kosturabillmek icin takip edilmesi gereken adimlar:
   Kullanilan Teknolojier:
   
   Java
+  
   Selenium
+  
   Gherkin ile Cucumber
+  
   Maven 
   
