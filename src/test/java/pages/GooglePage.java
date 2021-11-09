@@ -24,8 +24,7 @@ public class GooglePage {
     @FindBy(name = "q")
     public WebElement googleSearchInputBar;
 
-    @FindBy(className = "btnSignIn")
-    public WebElement n11signin;
+    
 
 public void isUrlListed(String url) {
     WebElement actualUrl= Driver.getDriver().findElement(By.xpath("//*[text()='"+ url+"']"));
